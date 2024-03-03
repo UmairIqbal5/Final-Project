@@ -1,0 +1,592 @@
+
+.top{
+    /* background-color: black; */
+    background-image: linear-gradient(rgb(148, 31, 172) , rgb(63, 9, 63));
+    margin-left:-1%;
+    position: fixed;
+    width: 100%;
+    height: 5px;
+  } 
+  
+  #navbar{
+      /* overflow: hidden; */
+      position: fixed;
+      width: 100%;
+      display: flex;
+      padding: 10px 10px;
+      height: 9%;
+      text-align: center;
+  }
+  
+  #navbar ul{
+      display: flex;
+  }
+  
+  #navbar ul li{
+      list-style: none;
+      font-size: 1.3rem;
+   
+   }
+   
+   #navbar ul li a{ 
+    
+       position: relative;
+       text-decoration: none;
+       margin: 5px 15px;
+       display: block;
+       padding: 10px;
+       color: black ;
+       transition: all 1s ease;
+   } 
+  
+   #navbar ul li a:hover{
+     transform: ;
+     background-clip: text;
+     background-image: linear-gradient(rgb(165, 67, 124),rgb(80, 17, 80));
+     color: white;
+     background-color: white;
+     cursor: pointer;
+   }
+  
+  
+  
+  a{
+    position: relative;
+  }
+  a::before{
+      
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      border-radius: 4px; 
+      background-color:rgb(195, 85, 195); 
+      bottom : 0;
+      left: 0;
+      transform-origin:center;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
+    
+  a:hover::before{
+  
+    background-color: purple;
+    transform-origin: center;
+    transform:scaleY(0.5);
+  } 
+   
+  #navbar{
+       margin-top: -15px;
+       margin-left: -8px;
+   }
+   #navbar::before{
+     
+      position: fixed;
+      content: "";
+      background-color: rgb(164, 168, 170);
+      width: 100%;
+      height: 80px;
+      z-index: -1;
+      opacity: 1;
+      margin-left: -8px;
+      
+  }
+  #navbar text{
+      margin: 0%;
+  }
+  
+    
+   #logo{
+       margin-top: 1px;
+   }
+   #logo img{
+       width: 150px;
+       height: 90px;
+       display: block;
+     
+   } 
+   
+  
+  #primary{
+      margin-top: 10%;
+      font-size: 4rem;
+      margin-left: 8%; 
+  
+    text-shadow: 0 0 3px pink, 0 0 5px purple;
+  }
+    
+    .first{
+      padding: 1px;
+      height: 790px;
+      margin-top: -9px;
+      margin-left: -8px;
+  } 
+  .first::before{
+      position: absolute;
+      content: "";
+      margin-top: 5.6%;
+      width: 100%;
+      height: 70%;
+      z-index: -1;
+      background: url("back2.avif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity:0.9;
+  }
+  marquee{
+    width: 30%;
+    /* border: 2px solid red;  */
+    border:inset;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 2%;
+    padding: 20px;
+    font-size: 1.7rem;
+    margin-left: 0%; 
+    text-shadow: 0 0 3px pink, 0 0 5px purple;
+  
+  }
+  
+  .head{
+      
+      padding-left: 8%;
+  }
+  
+  .assign{
+      display: inline-block;
+      top: 20px;
+      right: 4px;
+      position:absolute;
+  
+  }
+  .btn a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+  }
+  .btn
+  {    
+      
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1rem;
+      margin: 15px 22px ;
+      padding: 12px 25px; 
+      border-radius: 13px;
+      background-image:linear-gradient( rgb(136, 50, 136) ,rgb(236, 39, 227));
+      cursor: pointer;
+
+  }
+  .btn:hover{
+      background-image:linear-gradient(pink,purple);
+  }
+   
+  .second{
+    
+      display: flex;
+      /* text-align: right; */
+      margin-top:-15%;
+      font-size: 13px;
+      
+  }
+  .second h3{
+      
+    margin-top: 5%;
+    margin-right: 5%;
+    /* border: 2px solid black;  */
+  
+   
+  }
+  
+  .second img{
+      border-radius: 50%;
+      width: 80%;
+      height: 70%;
+      margin-top: 5%;
+   }
+  
+   .tri{
+    
+       display: flex;
+       margin-top: 30px;
+       font-size: 13px;
+   }
+  
+   .tri h3{
+      
+      margin-top: 5%;
+      margin-left: 5%;
+      
+  
+    
+     
+    }
+    .ben{
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .tri img{
+        border-radius: 50%;
+        width: 80%;
+        height: 70%;
+        margin-top: 5%;
+     }
+    .ben2{
+      width: 2000px;
+      padding: 10px;
+    }
+    
+     .ben h1{
+         
+         font-size: 2rem;
+         text-align: center;
+         background-image: -moz-linear-gradient(pink,purple);
+         width: 50%;
+         border-radius: 10px;   
+         border: 2px solid purple;    
+     }
+     .foot{
+       width: 100%;
+       height: auto;
+       display: flex;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+       background-color: #888;
+     }
+     .left a img{
+       width: 25px;
+       height: 25px;
+       padding: 5px;
+
+     }
+     .left a span{
+       text-decoration:none;
+       color: black;
+       padding: 5px;
+       font-size: 14px;
+     }
+     .left{
+       display: flex;
+       flex-direction: column;
+       width: 50%;
+       text-align: left;
+       justify-content: center;
+       margin-left: 200px;
+     }
+     .right{
+       width: 50%;
+       margin-right: 200px;
+     }
+     .right h1{
+       word-spacing: 10px;
+     }
+     .right p{
+       font-size: 14px;
+       text-align: center;
+       line-height: 20px;
+       justify-content: center;
+     }
+     .fooot{
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       display: flex;
+       background-color: #888;
+     }
+     .fooot a img{
+       width: 30px;
+       height: 30px;
+       margin: 10px 15px;
+     }
+     
+    .secondimg img{
+      width: 350px;
+      height: 350px;
+      padding: 30px;
+      
+    }
+
+    .ben h3{
+      font-family:'Times New Roman', Times, serif;
+      font-weight: 600;
+      font-size: 16px;
+      word-spacing: 8px;
+      letter-spacing: 1px;
+      line-height: 25px;
+    }
+ 
+  
+    
+  /* LOGIN MODAL */
+  
+  
+  
+  form {
+      border: 3px solid #f1f1f1;
+    }
+    
+    /* Full-width inputs */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    .btn2
+  {    
+      
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:0.8rem;
+      margin:auto;
+      padding: 12px 25px; 
+      border-radius: 13px;
+      /* background-image:linear-gradient( rgb(136, 50, 136) ,rgb(236, 39, 227)); */
+      cursor: pointer;
+      background-color: #04AA6D;
+        width: 17%;
+  }
+  .btn2:hover{
+    /* background-image: -moz-linear-gradient(pink,purple); */
+    opacity: 0.8; 
+  
+  }
+    
+    /* Extra style for the cancel button (red) */
+    .cancelbtn {
+      background-color: rgb(233, 84, 30);
+      width: auto;
+      padding: 10px 18px;
+      border-radius: 13px;
+      /* background-color: #f44336; */
+      /* background-image: -moz-linear-gradient(pink,purple); */
+    }
+    .cancelbtn:hover{
+      opacity: 0.8;
+    }
+    
+    /* Center the avatar image inside this container */
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+    }
+    
+    /* Avatar image */
+    img.avatar {
+      width: 20%;
+      border-radius: 50%;
+    }
+    
+    /* Add padding to containers */
+    .container {
+      border-radius: 20%;
+      text-align: center;
+      padding: 16px;
+  
+    }
+    
+    /* The "Forgot password" text */
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+    
+    /* Change styles for span and cancel button on extra small screens */
+    @media screen and (max-width: 300px) {
+      span.psw {
+        display: block;
+        float: none;
+      }
+      .cancelbtn {
+        width: 100%;
+      
+      }
+    }
+  
+  /* fuck */
+  
+  .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      padding-top: 60px;
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+      border-radius: 12px;
+      border-bottom-right-radius: 25%;
+      border-bottom-left-radius: 25%;
+      text-align:  center;
+      background-color: #fefefe;
+      margin: 5px auto; /* 15% from the top and centered */
+      border: 1px solid #888;
+      width: 40%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* The Close Button */
+    .close {
+      /* Position it in the top right corner outside of the modal */
+      position: absolute;
+      right: 25px;
+      top: 0;
+      color: #000;
+      font-size: 35px;
+      font-weight: bold;
+    }
+    
+    /* Close button on hover */
+    .close:hover,
+    .close:focus {
+        /* background-image: -moz-linear-gradient(pink,purple); */
+      color:orangered;
+      
+      cursor: pointer;
+    }
+    
+    /* Add Zoom Animation */
+    .animate {
+      -webkit-animation: animatezoom 0.6s;
+      animation: animatezoom 0.6s
+    }
+    
+    @-webkit-keyframes animatezoom {
+      from {-webkit-transform: scale(0)}
+      to {-webkit-transform: scale(1)}
+    }
+    
+    @keyframes animatezoom {
+      from {transform: scale(0)}
+      to {transform: scale(1)}
+  
+    }
+  
+    /* Modal End */
+  
+  #id02{
+    font-size: 2.4rem;
+   
+  }
+  
+   footer{ 
+     background-color: rgb(120, 122, 122);
+     width: 100%;
+     height: 550px;
+   }
+   .information a{
+     color:black;
+     list-style: none;
+     text-decoration: none;
+   }
+   .information{
+     width: 50%;
+     height: 100%;
+     /* border: 2px solid black; */
+   }
+   .information #googleMap img{
+     width: 40px; 
+     height: 40px;
+     margin-top: 14%;
+     margin-left: -28%;
+   }
+  
+   .information #mail img{
+    width: 40px; 
+    height: 40px;
+    margin-top: 4%;
+    margin-left: -38%;
+  }
+  .information #call img{
+    width: 40px; 
+    height: 40px;
+    margin-top: 4%;
+    margin-left: -38%;
+  }
+   .information #mail span{
+     font-size:1rem;
+     margin: 2%; 
+     display: inline-block;
+     /* border: 1px solid black; */
+   }
+  
+   .information #googleMap span{
+    font-size:1rem;
+    margin: 1%;
+    display: inline-block;
+    /* border: 1px solid black; */
+  }
+  .information #call span{
+    
+    font-size:1rem;
+    margin: 2%;
+    display: inline-block;
+    /* border: 1px solid black; */
+  }
+  .information a:hover {
+    color: rgb(42, 12, 148);
+  }
+  .link{
+    font-size: 1.5rem;
+    margin-top: 10%;
+    word-spacing: 4rem;
+  }
+  #foot{
+    display: flex;
+  }
+  .linklist{
+    /* border: 2px solid red; */
+     width: 50%;
+  
+  }
+  .linklist h1{ 
+    margin-top: 12%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+  }
+  .linklist p{
+    /* border: 2px solid #04AA6D; */
+    width: 50%;  
+    margin: auto;
+  
+    font-size: 1rem;
+  }
+    
+  
+   .linklist #github img{
+    width: 50px; 
+    height: 50px;
+  
+  }
+  
+  .linklist #pinterest img{
+    width: 50px; 
+    height: 50px;
+  
+  }
+  .linklist #paypal img{
+   width: 50px; 
+   height: 50px;
+    
+  }
+  .linklist #facebook img{
+    width: 50px;
+    margin-top: 20%;
+    height: 50px;
+  
+  }
+  .link2{
+    word-spacing: 3rem;
+  }

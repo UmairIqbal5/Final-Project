@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href=" reg.css">
+  <link rel="shortcut icon" href="SF .png" type="image/x-icon">
+  <title>Regestration</title>
+</head>
+
+
+
+<body>
+
+  <form action="php">
+    <div class="container">
+
+      <div class="img"> <img src="SF .png" alt="Avatar">
+      </div>
+      <h1>Registration Now</h1>
+
+      <label for="name">Name :</label>
+      <input type="text" id="name" required placeholder="Enter your name" onblur="blur(this)" onfocus="focus(this)"><br>
+
+      <label for="name">Son/Of :</label>
+      <input type="text" id="fname" required placeholder="Father name" onblur="blur(this)" onfocus="focus(this)"> <br>
+
+      <label for="name"> Email:</label>
+      <input type="email" id="mail" required placeholder="Enter your Email" onblur="blur(this)"
+        onfocus="focus(this)"><br>
+
+      <label for="name">Residential :</label>
+      <input type="address" id="address" required placeholder="Your Residential"><br>
+
+      <label for="name">Phone :</label>
+      <input type="number" id="Phone" required placeholder="Enter your Phone"> <br>
+
+      <h4> Select Age :
+        <select name="age" id="age">
+          <option value="1">18-25</option>
+          <option value="2">26-30</option>
+          <option value="3">31-35</option>
+          <option value="4">36-40</option>
+          <option value="5">41-49</option>
+        </select>
+        <span>Under 18 are not Allowed</span>
+      </h4>
+      <div class="sex">
+        <label for="sex"> <b> Sex :</b></label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+      </div>
+      <div class="btn">
+
+        <button class="btn1" type="submit" value="Submit">Submit</button>
+        <button class="btn1" type="reset" value="Reset all">Reset</button>
+
+      </div>
+
+    </div>
+  </form>
+
+</body>
+  <script>
+    function focus(element) {
+      element.style.border = "2px solid red";
+    };
+    function blur(element) {
+      element.style.border = "";
+    };
+  </script>
+
+</html>
